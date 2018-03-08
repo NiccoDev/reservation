@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+body{
+    /*width: 100%;
+    height: 1000px;
+    background-color: white;*/
+}
+
+/*
+IDS MACRO STRUCTURES
+*/
+#header{
+    /*height: 70px;
+    width: 100%;
+    background: lime;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    top: 0px;*/
+}
+
+#search{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    background: white;
+    color: dimgray;
+    padding: 5px;
+    /*    position: fixed;
+        left: 0px;
+        top: 90px;*/
+}
+
+#search img{
+}
+
+#ittSearch{
+    margin: 0;
+}
+
+#search ul li{
+    line-height: 30px;
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#search ul li a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+#nav{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 0px;
+    /*    position: fixed;
+        left: 0px;
+        top: 170px;*/
+}
+
+#nav ul li{
+    line-height: 30px;
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#footer{
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    padding: 10px;
+    /*    position: fixed;*/
+    /*    top: 700px;*/
+}
+
+#article{
+    /* height header+nav + padding header+nav */
+    /*    position: fixed;
+        top: 200px;
+        left: 0px;*/
+    width: 100%;
+    /*    height: 1000px;
+    background: white;*/
+    padding: 1em;
+    /*overflow: auto;*/
+}
+
+#aside{
+
+}
+
+#h1{
+    color: brown;
+    text-align: center;
+    padding-top: 50px;
+    font-family: arial;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#article form ul li{
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+#article ul li{
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+ul li{
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+/*
+ELEMENTS
+*/
+h1{
+    margin: 0.5em;
+    /*    padding: 1em;*/
+}
+
+p{
+    margin: 0.3em;
+}
+
+img{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1em;
+}
+caption, th, td{
+    border: 1px solid black;
+}
+td, th{
+    padding: 5px;
+}
+
+fieldset{
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+legend{
+    padding: 0.5em;
+}
+
+form{
+    margin: 1em;
+}
+
+textarea{
+    color: dimgray;
+}
+
+input[type="text"]{
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-style: italic;
+    color: dimgray;
+}
+
+input[type="password"]{
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-style: italic;
+    color: dimgray;
+}
+
+input[type="submit"]{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: lime;
+    color: white;
+    width: 200px;
+}
+
+input[type="reset"]{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+/*input[type="button"]{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}*/
+
+/*button[type="button"]{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}*/
+
+a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+select{
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-style: italic;
+    color: dimgray;
+    width: 200px;
+}
+
+/*
+IDS
+*/
+
+#imageAccueil{
+    display: block;
+    width: 100%;
+    /*margin: auto;*/
+}
+
+#logo{
+    width: 48px;
+    height: 48px;
+}
+
+#erreur{
+    color: red;
+}
+
+#texte{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#btValidate{
+    background-color: dimgray;
+}
+
+#btAnnuler{
+    background-color: red;
+}
+
+#btInsert{
+    background-color: fuchsia;
+}
+
+#btDelete{
+    background-color: red;
+}
+
+#btUpdate{
+    background-color: lime;
+}
+
+#btEffacer{
+    display: inline-block;
+    margin: 3%;
+}
+
+#btFermer{
+    display: inline-block;
+    margin: 3%;
+}
+
+#lblMessage{
+    display: block;
+    margin-top: 1em;
+    margin-left: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#lblHome{
+    color: white;
+    font-weight: bold;
+}
+
+#divMatrice{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+    display: none;
+}
+
+#divNumericKeypad{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: #F5F5F5;
+    display: none;
+}
+
+/*
+CLASSES
+*/
+.etiquette{
+
+}
+
+.centre{
+    text-align: center;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.icone{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.button200{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+
+.button100{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.littleBouton{
+    background-color: white;
+    width: 50px;
+}
